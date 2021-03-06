@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -23,12 +24,25 @@
   <meta name="apple-mobile-web-app-title" content="Flutter Ghana">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flutterghana.dev">
+  <meta property="og:title" content="Flutter Ghana">
+  <meta property="og:description" content="Official Flutter Ghana Community Website.">
+  <meta property="og:image" content="https://flutterghana.dev/cover.jpg">
+  
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://flutterghana.dev">
+  <meta property="twitter:title" content="Flutter Ghana">
+  <meta property="twitter:description" content="Official Flutter Ghana Community Website.">
+  <meta property="twitter:image" content="https://flutterghana.dev/cover.jpg">
+
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>Flutter Ghana Community</title>
   <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
@@ -36,10 +50,11 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1348396491');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2299096256');
       });
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
+
 </html>
